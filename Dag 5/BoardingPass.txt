@@ -1,0 +1,4 @@
+h_in = convective heat transfer from inside to wall
+h_out = from wall to outside
+lambda
+APE = actual piston element
