@@ -44,6 +44,8 @@ for i in rules:
     containing=re.split(' bags, | bag, ',ruleSplit[1])
     containing=[i.replace(' bags.','').replace(' bag.','') for i in containing]
     ruleDict[bag]=containing;
+    
+    
 possibleBags=findBags(ruleDict,'shiny gold')
 print(len(set(findBags(ruleDict,'shiny gold'))))
 print(countInsideBags(ruleDict, 'shiny gold'))
